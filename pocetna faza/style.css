@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+a {
+    color: #f8B195;
+    color: #f67280;
+    color: #f6727f;
+    color: #C06C84;
+    color: #6C5b7b;
+    color: #355c7d;
+
+    color: #38123B;
+    color: #461846;
+    color: #531B4C;
+    color: #FCE9C8;
+    color: #C59BA7;
+    color: #B08990;
+    color: #A1736A;
+    color: #C47942;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    width: 1240px;
+    height: 1740px;
+    /* background-color: #6C5b7b; */
+    margin: 0 auto;
+    /* background-image: linear-gradient(to bottom right, rgba(192, 108, 132, 0.9), rgba(108, 91, 123, 0.9)); */
+    /* background-image: linear-gradient(to top left, #6C5b7b, #C06C84); */
+    /* background-image: linear-gradient(to bottom right, rgba(192, 108, 132, 0.99), rgba(108, 91, 123, 0.99)), url('texture.jpg'); */
+    background-image: linear-gradient(to top, rgba(56, 18, 59, 0.85), rgba(83, 27, 75, 0.85)), url('polygon2.png');
+    background-size: cover;
+    /* background-position: bottom; */
+    
+    /* background: linear-gradient( to bottom, #403AA3, #4039D4, #0B184E); */
+}
+
+.slika {
+    width: 1240px;
+    height: 650px;
+    /* background-image: linear-gradient(to bottom right, rgba(192, 108, 132, 0.2), rgba(108, 91, 123, 0.2)), url('massage.jpg'); */
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('massage.jpg');
+    background-size: 100%;
+    background-position: bottom;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 85%, 0 100%); */
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+
+    /* box-shadow: 0px 43px 15px 0px rgba(0,0,0,0.75); */
+}
+
+
+
+.rada-masaza {
+    margin: 0 auto;
+    padding-top: 180px;
+    text-align: center;
+    font-size: 30px;
+    color: #FCE9C8;
+    font-weight: 400;
+    letter-spacing: 56px;
+}
+
+.rada-masaza p {
+    text-align: center;
+}
+
+.veci {
+    font-size: 80px;
+    margin: 0;
+    /* display: block; */
+    text-shadow: 0.5rem 2rem 2rem rgba(0, 0, 0, 0.9);
+    /* letter-spacing: 8rem; */
+    /* background: red; */
+    /* margin: 0 auto; */
+
+    /* font-family: 'Nova Mono', monospace; */
+    /* font-family: 'Gabriela', serif; */
+    /* font-family: 'Laila', serif; KUL */
+    /* font-family: 'Delius Swash Caps', cursive;  KUL */
+    /* font-family: 'Cantora One', sans-serif; */
+    /* font-family: 'Italiana', serif; oooooooooooooooooooooooooooo */
+    /* font-family: 'Marko One', serif; */
+    /* font-family: 'Lancelot', cursive; */
+    font-family: 'Trochut', cursive; 
+
+
+
+
+    /* font-family: 'Varela Round', sans-serif; */
+    /* font-family: 'Source Code Pro', monospace; */
+    /* font-family: 'Archivo Narrow', sans-serif; */
+    /* font-family: 'Aref Ruqaa', serif;ggggggggggggggg */
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Catamaran', sans-serif; */
+    /* font-family: 'Old Standard TT', serif; */
+
+    
+
+
+}
+.crta {
+    content: "";
+    /* display: block; */
+    margin: 40px auto;
+    text-align: center;
+    width: 200px;
+    height: 4px;
+    /* background-image: linear-gradient(to top left, #6C5b7b, #C06C84); */
+    background: #FCE9C8;
+    /* text-shadow: 0.5rem 2rem 2rem rgba(0, 0, 0, 0.9); */
+    border-radius: 10px;
+    text-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.9);
+
+}
+ 
+.manji {
+    font-size: 40px;
+    /* color: #C59BA7; */
+    color: rgb(243, 202, 131);
+    letter-spacing: 2rem;
+    font-weight: 700;
+    /* display: block; */
+    /* text-shadow: 0.5rem 2rem 2rem rgba(0, 0, 0, 0.9); */
+    text-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.9);
+
+
+} 
+
+
+.opis-masaza {
+    text-align: center;
+    margin: 0 auto;
+    padding: 140px 220px 65px 220px;
+    font-size: 45px;
+    font-weight: 100;
+    /* color: #f8B195; */
+    color: #FCE9C8;
+    width: 100%;
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+    /* text-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.9); */
+    text-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.9);
+
+    /* background: #355c7d; */
+
+}
+
+.opis-masaza span {
+    /* color: #C59BA7; */
+    color: rgb(243, 202, 131);
+    
+    
+}
+
+.arrow {
+    text-align: center; 
+}
+.arrow i {
+    color: rgb(243, 202, 131);
+    font-size: 100px;
+    text-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.9);
+    /* margin-top: 50px; */
+
+    
+    
+}
+
+.tel-sat {
+    font-size: 50px;
+    /* color: #f8B195; */
+    color: #FCE9C8;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-top: 160px;
+    /* background: #461846; */
+    /* padding: 130px 0; */
+    /* font-family: 'Trochut', cursive;  */
+    /* font-family: 'Italiana', serif; */
+    /* font-family: 'Aref Ruqaa', serif; */
+    /* font-family: 'Laila', serif;  */
+    /* font-family: 'Delius Swash Caps', cursive; */
+    font-family: 'Lato', sans-serif;
+    /* text-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.9); */
+    text-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.9);
+
+
+
+}
+.tel-sat i {
+    /* color: #C59BA7; */
+    color: rgb(243, 202, 131);
+
+    margin-right: 18px;
+}
